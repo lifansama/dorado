@@ -1,10 +1,10 @@
 {
     "homepage": "https://www.jetbrains.com/idea/",
     "description": "The Java IDE for Professional Developers by JetBrains",
-    "version": "2023.3.4",
+    "version": "2024.3.2.2",
     "license": "Apache-2.0",
-    "url": "https://download.jetbrains.com/idea/ideaIC-2023.3.4.win.zip",
-    "hash": "625d28fb51e1c1296a139d090b3762f1740a6cba4d2f9ecdf7af42d907c13a2b",
+    "url": "https://download.jetbrains.com/idea/ideaIC-2024.3.2.2.win.zip",
+    "hash": "a457edde17c738078b0597f6c58ca1e974ed13c0abb4756a3b8b50f30c1f4153",
     "bin": "bin\\idea.bat",
     "architecture": {
         "64bit": {

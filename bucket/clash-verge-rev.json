@@ -1,21 +1,21 @@
 {
-    "version": "1.5.1",
+    "version": "2.0.3",
     "description": "Continuation of Clash Verge - A Clash Meta GUI based on Tauri",
     "homepage": "https://github.com/clash-verge-rev/clash-verge-rev",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v1.5.1/Clash.Verge_1.5.1_x64_portable.zip",
-            "hash": "12552e31d2bcae719ff57f0d7268f8fb92fc04840031584950e25bed47d170ff"
+            "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.0.3/Clash.Verge_2.0.3_x64-setup.exe#/dl.7z",
+            "hash": "ce13e1cb170e0469e904d6487b5d7b806d0cea905f86c60d205bdbd83fa65c02"
         },
         "arm64": {
-            "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v1.5.1/Clash.Verge_1.5.1_arm64_portable.zip",
-            "hash": "586e5140dc6e19536f6c40f7af91f77cc215526f92b98e21415b14772a732ec5"
+            "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.0.3/Clash.Verge_2.0.3_arm64-setup.exe#/dl.7z",
+            "hash": "dc7696b2764b74c5567fe7397dc56f82787313bbbb21487f519809fa872db35c"
         }
     },
     "shortcuts": [
         [
-            "Clash Verge.exe",
+            "clash-verge.exe",
             "Clash Verge"
         ]
     ],
@@ -30,10 +30,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v$version/Clash.Verge_$version_x64_portable.zip"
+                "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v$version/Clash.Verge_$version_x64-setup.exe#/dl.7z"
             },
             "arm64": {
-                "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v$version/Clash.Verge_$version_arm64_portable.zip"
+                "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v$version/Clash.Verge_$version_arm64-setup.exe#/dl.7z"
             }
         }
     }

@@ -1,12 +1,12 @@
 {
-    "version": "2.75.0",
+    "version": "2.98.0",
     "description": "Ledger Live (Desktop)",
     "homepage": "https://www.ledger.com/ledger-live",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.live.ledger.com/ledger-live-desktop-2.75.0-win-x64.exe#/dl.7z",
-            "hash": "sha512:11289b6f800395f9a7945bedc7bd061bfd6df9ba1f6bf5af20b0f97472785a77e38f9b28c2ed6dac2efba7bfcae1b2f794767192a489ab8a1735df212bfe0889",
+            "url": "https://download.live.ledger.com/ledger-live-desktop-2.98.0-win-x64.exe#/dl.7z",
+            "hash": "sha512:ac935f04d8db1b9d76925e2633115c35c8139c96731f9b5319ec4831c9de1d68989fa022487b9850ac47392b1c6959110b3aec50b8f9e81fa03901a4fb1d3306",
             "installer": {
                 "script": [
                     "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" -DestinationPath \"$dir\" -Removal",
@@ -22,7 +22,7 @@
         ]
     ],
     "checkver": {
-        "script": "return (iwr -useb 'https://download.live.ledger.com/latest/win' -Method HEAD -MaximumRedirection 0 -SkipHttpErrorCheck -ErrorAction:SilentlyContinue).Headers['Location']",
+        "url": "https://download.live.ledger.com/latest.yml",
         "regex": "ledger-live-desktop-([\\d.]+)-win"
     },
     "autoupdate": {
