@@ -1,12 +1,12 @@
 {
     "homepage": "https://github.com/nilaoda/BBDown",
     "description": "Command line Bilibili downloader",
-    "version": "1.6.1",
+    "version": "1.6.3",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/nilaoda/BBDown/releases/download/1.6.1/BBDown_1.6.1_20230818_win-x64.zip",
-            "hash": "bc3af8f677c8775b8d8e37ae1b35783d820a94c41d2a89bb330a946ca3e1fcaf"
+            "url": "https://github.com/nilaoda/BBDown/releases/download/1.6.3/BBDown_1.6.3_20240814_win-x64.zip",
+            "hash": "40f1e2af0d4e74df765c6f93d2e931f9bea201d5168d0bc62dc35a54b7e0ec02"
         }
     },
     "bin": "BBDown.exe",

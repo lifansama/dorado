@@ -1,12 +1,12 @@
 {
     "homepage": "https://www.dandanplay.com/",
     "description": "A free to use bangumi player with danmaku support",
-    "version": "15.1.0",
+    "version": "15.12.0",
     "license": "Unknown",
     "architecture": {
         "64bit": {
-            "url": "https://dandan.sakurateam.top/dandanplay-x64_15.1.0.exe",
-            "hash": "906be2ba743bb1f6979cca15d2f5f6af8e20bb0fc3c067f42aef557f89ce0c2c"
+            "url": "https://dandan.sakurateam.top/dandanplay-x64_15.12.0.exe",
+            "hash": "a130883c95706ae5dcc1d3bccd48e63ee9af7c51fbd6c8f29d40ddc094779e7c"
         }
     },
     "pre_install": [

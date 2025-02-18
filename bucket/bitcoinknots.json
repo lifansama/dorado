@@ -1,13 +1,13 @@
 {
     "homepage": "https://bitcoinknots.org/",
     "description": "Bitcoin Knots is a combined Bitcoin node and wallet.",
-    "version": "25.1.knots20231115",
+    "version": "27.1.knots20240801",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://bitcoinknots.org/files/25.x/25.1.knots20231115/bitcoin-25.1.knots20231115-win64.zip",
-            "hash": "4436ece2ce77aeddfcfe8e886272b3236932b323fd96dc9fe155b851332d9746",
-            "extract_dir": "bitcoin-25.1.knots20231115"
+            "url": "https://bitcoinknots.org/files/27.x/27.1.knots20240801/bitcoin-27.1.knots20240801-win64.zip",
+            "hash": "70c6bef5a4afd1b23d3225bee99102ed8b05452c47f1a2d53b5a663a531e8333",
+            "extract_dir": "bitcoin-27.1.knots20240801"
         }
     },
     "shortcuts": [

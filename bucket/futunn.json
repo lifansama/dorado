@@ -1,10 +1,10 @@
 {
     "homepage": "https://www.futunn.com/",
     "description": "Powerful tool facilitating trading and providing market information and data for Hong Kong, US and China A-Share Stocks",
-    "license": "Unknown",
-    "version": "14.3.13018",
-    "url": "https://softwarefile.futunn.com/FTNN_14.3.13018.exe#/ftnn_14.3.13018.7z",
-    "hash": "52a11b2dcf53adb9d6a7ea390392fc9ddb010982f17aa869badc371065ceff44",
+    "license": "Proprietary",
+    "version": "15.3.16958",
+    "url": "https://softwaredownload.futunn.com/FTNN_15.3.16958.exe#/ftnn_15.3.16958.7z",
+    "hash": "6132155f1f5151087c3b6cc4435d5ee6b92843400855a8736aaf456209df0478",
     "post_install": [
         "@('$PLUGINSDIR', '$_14_') | ForEach-Object {",
         "    Remove-Item \"$dir\\$_\" -Recurse -Force",
@@ -13,14 +13,14 @@
     "shortcuts": [
         [
             "FTNN.exe",
-            "Futubull"
+            "富途牛牛"
         ]
     ],
     "checkver": {
-        "url": "https://www.futunn.com/download/history?client=10",
+        "url": "https://www.futunn.com/api/futunn/download/fetch-lasted-link?clientType=10",
         "regex": "FTNN_([\\d.]+).exe"
     },
     "autoupdate": {
-        "url": "https://softwarefile.futunn.com/FTNN_$version.exe#/ftnn_$version.7z"
+        "url": "https://softwaredownload.futunn.com/FTNN_$version.exe#/ftnn_$version.7z"
     }
 }
